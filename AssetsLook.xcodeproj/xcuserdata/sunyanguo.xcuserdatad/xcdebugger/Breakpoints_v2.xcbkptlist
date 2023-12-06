@@ -26,26 +26,38 @@
             filePath = "AssetsLook/main.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "main(argc, argv)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
          <BreakpointContent
-            uuid = "29071618-57FB-48EF-9402-D867273ACBB9"
+            uuid = "D39F2633-AE28-4867-8481-01A176920F13"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AssetsLook/main.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "double_num(num)"
-            landmarkType = "9">
+            symbolName = "double_num2"
+            moduleName = "">
+            <Locations>
+               <Location
+                  uuid = "D39F2633-AE28-4867-8481-01A176920F13 - c80579fb09a05dfc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "double_num2"
+                  moduleName = "AssetsLook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sunyanguo/Developer/used/AssetsLook/AssetsLook/main.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

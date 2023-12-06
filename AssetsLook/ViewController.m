@@ -15,6 +15,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+}
+
+- (void)checkBundle {
     NSArray *allBundles =  [self allBundle];
 
     for (NSBundle *aBundle in allBundles) {

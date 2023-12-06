@@ -8,18 +8,37 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
-long double_num(long num) {
+//    AssetsLook`double_num2:
+//    0x102b13514 <+0>:  sub    sp, sp, #0x10
+//    0x102b13518 <+4>:  str    x0, [sp, #0x8]
+//    0x102b1351c <+8>:  ldr    x8, [sp, #0x8]
+//    0x102b13520 <+12>: lsl    x0, x8, #1
+//    0x102b13524 <+16>: add    sp, sp, #0x10
+//    0x102b13528 <+20>: ret
+long double_num2(long num) {
     __asm__ __volatile__(
                          "lsl x0, x0, 1\n"
-                         "str x0, [sp, #8]\n"
+                         "str x0, [sp, #0x8]\n"
+                         );
+    return num;
+}
+
+int double_num(int num) {
+    __asm__ __volatile__(
+                         "lsl x0, x0, 1\n"
+                         "str x0, [sp, #12]\n"
                          );
     return num;
 }
 
 
+
 int main(int argc, char * argv[]) {
-    long ret = double_num(0x68449035);
-    printf("%0ld", ret);
+    long ret = double_num2(0x68449035);
+    printf("%0ld\n", ret);
+
+    int ret1 = double_num(0x6844);
+    printf("%0d\n", ret1);
     NSString * appDelegateClassName;
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
