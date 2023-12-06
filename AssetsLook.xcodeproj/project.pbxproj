@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D81F4DC2B20192A0088EA87 /* Assets.car in Resources */ = {isa = PBXBuildFile; fileRef = 9D81F4DB2B20192A0088EA87 /* Assets.car */; };
 		9DF937BD2A413FCE001BD720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF937BC2A413FCE001BD720 /* AppDelegate.m */; };
 		9DF937C02A413FCE001BD720 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF937BF2A413FCE001BD720 /* SceneDelegate.m */; };
 		9DF937C32A413FCE001BD720 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF937C22A413FCE001BD720 /* ViewController.m */; };
 		9DF937C62A413FCE001BD720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF937C42A413FCE001BD720 /* Main.storyboard */; };
 		9DF937CB2A413FD0001BD720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF937C92A413FD0001BD720 /* LaunchScreen.storyboard */; };
 		9DF937CE2A413FD0001BD720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF937CD2A413FD0001BD720 /* main.m */; };
-		9DF937D52A413FF2001BD720 /* Assets.car in Resources */ = {isa = PBXBuildFile; fileRef = 9DF937D42A413FF2001BD720 /* Assets.car */; };
 		9DF937F82A4145B2001BD720 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9DF937D82A4145B2001BD720 /* LICENSE */; };
 		9DF937F92A4145B2001BD720 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9DF937D92A4145B2001BD720 /* README.md */; };
 		9DF937FA2A4145B2001BD720 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF937DD2A4145B2001BD720 /* SDWebImageManager.m */; };
@@ -33,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D81F4DB2B20192A0088EA87 /* Assets.car */ = {isa = PBXFileReference; lastKnownFileType = file; path = Assets.car; sourceTree = "<group>"; };
 		9DF937B82A413FCE001BD720 /* AssetsLook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetsLook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF937BB2A413FCE001BD720 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9DF937BC2A413FCE001BD720 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,7 +45,6 @@
 		9DF937CA2A413FD0001BD720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DF937CC2A413FD0001BD720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DF937CD2A413FD0001BD720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9DF937D42A413FF2001BD720 /* Assets.car */ = {isa = PBXFileReference; lastKnownFileType = file; path = Assets.car; sourceTree = "<group>"; };
 		9DF937D82A4145B2001BD720 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9DF937D92A4145B2001BD720 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9DF937DB2A4145B2001BD720 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 				9DF937BC2A413FCE001BD720 /* AppDelegate.m */,
 				9DF937BE2A413FCE001BD720 /* SceneDelegate.h */,
 				9DF937BF2A413FCE001BD720 /* SceneDelegate.m */,
-				9DF937D42A413FF2001BD720 /* Assets.car */,
+				9D81F4DB2B20192A0088EA87 /* Assets.car */,
 				9DF937C12A413FCE001BD720 /* ViewController.h */,
 				9DF937C22A413FCE001BD720 /* ViewController.m */,
 				9DF937D72A4145B2001BD720 /* SDWebImage */,
@@ -229,9 +229,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DF937CB2A413FD0001BD720 /* LaunchScreen.storyboard in Resources */,
-				9DF937D52A413FF2001BD720 /* Assets.car in Resources */,
 				9DF937F92A4145B2001BD720 /* README.md in Resources */,
 				9DF937F82A4145B2001BD720 /* LICENSE in Resources */,
+				9D81F4DC2B20192A0088EA87 /* Assets.car in Resources */,
 				9DF937C62A413FCE001BD720 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +431,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +459,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
