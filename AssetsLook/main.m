@@ -31,9 +31,14 @@ int double_num(int num) {
     return num;
 }
 
-
+int mainAdd(int a, int b) {
+    return a + b;
+}
+#import "asmtest.h"
 
 int main(int argc, char * argv[]) {
+    mainAdd(argc, 0xff);
+    testaaa();
     long ret = double_num2(0x68449035);
     printf("%0ld\n", ret);
 

@@ -5,59 +5,19 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
-         <BreakpointContent
-            uuid = "D429F89A-20BE-4812-9C36-0E8F62B0CB68"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            breakpointStackSelectionBehavior = "1"
-            scope = "1"
-            stopOnStyle = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "590BF3B6-689C-437A-9997-6916477AC29C"
+            uuid = "06F3DFA1-2040-4A02-8810-91E912C16CD6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AssetsLook/main.m"
+            filePath = "AssetsLook/asmtest.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "main(argc, argv)"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "testaaa()"
             landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
-         <BreakpointContent
-            uuid = "D39F2633-AE28-4867-8481-01A176920F13"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            symbolName = "double_num2"
-            moduleName = "">
-            <Locations>
-               <Location
-                  uuid = "D39F2633-AE28-4867-8481-01A176920F13 - c80579fb09a05dfc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "double_num2"
-                  moduleName = "AssetsLook"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sunyanguo/Developer/used/AssetsLook/AssetsLook/main.m"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "8">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D81F4DC2B20192A0088EA87 /* Assets.car in Resources */ = {isa = PBXBuildFile; fileRef = 9D81F4DB2B20192A0088EA87 /* Assets.car */; };
+		9DB534242B21B1E400D57887 /* asmtest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB534232B21B1E400D57887 /* asmtest.m */; };
 		9DF937BD2A413FCE001BD720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF937BC2A413FCE001BD720 /* AppDelegate.m */; };
 		9DF937C02A413FCE001BD720 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF937BF2A413FCE001BD720 /* SceneDelegate.m */; };
 		9DF937C32A413FCE001BD720 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF937C22A413FCE001BD720 /* ViewController.m */; };
@@ -34,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		9D81F4DB2B20192A0088EA87 /* Assets.car */ = {isa = PBXFileReference; lastKnownFileType = file; path = Assets.car; sourceTree = "<group>"; };
+		9DB534202B21B0B100D57887 /* asmtest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asmtest.h; sourceTree = "<group>"; };
+		9DB534232B21B1E400D57887 /* asmtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = asmtest.m; sourceTree = "<group>"; };
 		9DF937B82A413FCE001BD720 /* AssetsLook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetsLook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF937BB2A413FCE001BD720 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9DF937BC2A413FCE001BD720 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				9DF937C92A413FD0001BD720 /* LaunchScreen.storyboard */,
 				9DF937CC2A413FD0001BD720 /* Info.plist */,
 				9DF937CD2A413FD0001BD720 /* main.m */,
+				9DB534202B21B0B100D57887 /* asmtest.h */,
+				9DB534232B21B1E400D57887 /* asmtest.m */,
 			);
 			path = AssetsLook;
 			sourceTree = "<group>";
@@ -279,6 +284,7 @@
 				9DF938042A4145B2001BD720 /* NSData+ImageContentType.m in Sources */,
 				9DF938012A4145B2001BD720 /* SDWebImagePrefetcher.m in Sources */,
 				9DF938022A4145B2001BD720 /* SDImageCache.m in Sources */,
+				9DB534242B21B1E400D57887 /* asmtest.m in Sources */,
 				9DF937FC2A4145B2001BD720 /* UIImageView+HighlightedWebCache.m in Sources */,
 				9DF937C02A413FCE001BD720 /* SceneDelegate.m in Sources */,
 			);
